@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real And Fake Face Detection</title>
+    <link rel="stylesheet" href="static/predict.css">
+</head>
+<body>
+    
+    <div class="container">
+       
+        <div id="box" class="boxPrediction">
+            <h1>Welcome To Face Forensics</h1>
+            <div class="prediction">
+                {% if prediction %}
+                    <img src="{{imag_path}}" height="150px" width="150px">
+                    <h2><i>{{prediction}}</i></h2> 
+                    
+                {% endif %}
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

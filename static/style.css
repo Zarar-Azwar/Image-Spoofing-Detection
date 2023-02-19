@@ -1,0 +1,62 @@
+body{
+    background: url("../static/bg.webp");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.box{
+    background-color: rgb(20, 20, 90);
+    opacity: 0.7;
+    height: 300px;
+    width: 400px;
+    border: 3px solid rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.7);
+}
+h1{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    letter-spacing: 3px;
+    text-shadow: 4px 4px 18px rgba(0,0,0, 0.8);
+}
+
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.label{
+    margin-top: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    color:white;
+    text-shadow: 0 3px 8px rgba(0,0,0, 0.8); 
+}
+
+.fileClass{
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+    border: 3px solid ;
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    border: 3px solid;
+    border-radius: 7px;
+}
+
+
+
